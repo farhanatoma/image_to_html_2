@@ -1,0 +1,196 @@
+* {
+	margin:0;
+	padding: 0;
+}
+
+/* start header*/
+.header {
+	min-height: 100px;
+	background-color: #FFFFFF;
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 80%;
+	margin:0 auto;
+}
+
+.logo {
+	margin-top: 24px;
+	width: 20%;
+	float: left;
+
+}
+
+
+.nav {
+	width: 70%;
+	float: right;
+	 margin-top: 44px;
+	 margin-right: -34px;
+}
+
+.nav ul {
+   list-style: none;
+}
+.nav ul li {
+  float: left; 
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: #43546E;
+    padding: 5px 30px;
+    font-size: 20px;
+    margin-right: -27px;
+
+}
+
+.nav ul li a:hover {
+	 color:#0078BD;
+}
+
+/* header end*/
+ 
+
+/*Start banner*/
+ .banner {
+ 	background-image: url(../img/banner.jpg);
+ 	min-height: 400px;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-position: center;
+ 	overflow: hidden;
+ 	border-top: 1px solid #C3DCFB;
+ 	border-bottom: 1px solid #C3DCFB;
+ 	
+}
+
+
+.banner_text {
+	width: 50%;
+	margin-top: 148px;
+}
+
+.banner_text h3 {
+	color: #ffffff;
+	font-size: 25px;
+
+}
+
+.banner_text p {
+	color:gray;
+	font-size: 20px;
+	font-weight: normal;
+	margin-top: 8px;
+}
+
+.banner_text button {
+ background-color:#ffffff;
+ padding: 10px 25px;
+ border:none;
+ border-radius: 3px;
+ margin-top: 30px;
+ color: gray;
+ text-transform: uppercase;
+}
+
+.banner_text button:hover {
+ background-color: #1079B2;
+ color: #ffffff;
+}
+/*End banner*/
+
+/*start service*/
+
+.service {
+	background-color: #ffffff;
+	overflow: hidden;
+	padding: 70px 0;
+}
+
+.service_section {
+	margin-right: -198px;
+	overflow: hidden;
+
+
+}
+
+.service1 {
+	float: left;
+	width: 30%;
+	margin-right: 10px;
+
+}
+
+.content {
+	overflow: hidden;
+
+}
+
+.content_img {
+	width: 30%;
+	float: left;
+    margin-left:35px;
+
+}
+
+
+.content_text {
+    width: 60%;
+	float: right;
+	margin-right: 74px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	
+}
+
+.content_text h1 {
+	color: #525F70;
+	font-size: 25px;
+}
+
+
+.feature  {
+	color: #525F70;
+    font-size: 17px;
+     padding: 25px 95px 25px 16px;
+}
+
+.more {
+	font-size: 20px;
+	margin-left: 72px;
+	color: #ffffff;
+	background-color:#435A7D;
+	border: none;
+	padding: 10px 42px;
+	border-radius: 4px; 
+}
+/*end service*/
+
+
+
+.footer {
+	background-color: #ffffff;
+	min-height: 120px;
+	
+}
+
+.footer_top h6 {
+	color: #525F70;
+   text-align: center;
+   padding: 10px;
+   font-size: 18px;
+}
+
+.footer_top p {
+	color: #525F70;
+   text-align: center;
+   padding: 2px;
+   font-size: 18px;
+}
+.footer_logo{
+	    padding-left: 610px;
+    padding-top: 10px;
+}
+
